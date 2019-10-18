@@ -149,6 +149,9 @@
           "lib/netstandard2.0/Refit.HttpClientFactory.dll": {}
         }
       },
+      "SonarAnalyzer.CSharp/7.17.0.9346": {
+        "type": "package"
+      },
       "System.ComponentModel.Annotations/4.5.0": {
         "type": "package",
         "compile": {
@@ -540,6 +543,24 @@
         "refit.httpclientfactory.nuspec"
       ]
     },
+    "SonarAnalyzer.CSharp/7.17.0.9346": {
+      "sha512": "Fmap0bvZRojVKRSJj8xS3Bqsltmjy6i3bJF2gXMkuKdtFFJeS546RT75G3YN3IDSygrIEyfQdL+s8ep60vzORQ==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/7.17.0.9346",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "sonaranalyzer.csharp.7.17.0.9346.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "System.ComponentModel.Annotations/4.5.0": {
       "sha512": "UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
       "type": "package",
@@ -683,6 +704,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Refit.HttpClientFactory >= 4.7.51",
+      "SonarAnalyzer.CSharp >= 7.17.0.9346",
       "refit >= 4.7.51"
     ]
   },
@@ -693,11 +715,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guest\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kharented\\epicture\\DEV_epicture_2019\\server\\server\\server.csproj",
+      "projectUniqueName": "C:\\Users\\Guest\\Source\\Repos\\Kharente-Deuh\\Epicture\\server\\server.csproj",
       "projectName": "server",
-      "projectPath": "C:\\Users\\Guest\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kharented\\epicture\\DEV_epicture_2019\\server\\server\\server.csproj",
+      "projectPath": "C:\\Users\\Guest\\Source\\Repos\\Kharente-Deuh\\Epicture\\server\\server.csproj",
       "packagesPath": "C:\\Users\\Guest\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guest\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kharented\\epicture\\DEV_epicture_2019\\server\\server\\obj\\",
+      "outputPath": "C:\\Users\\Guest\\Source\\Repos\\Kharente-Deuh\\Epicture\\server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -730,6 +752,12 @@
           "Refit.HttpClientFactory": {
             "target": "Package",
             "version": "[4.7.51, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.17.0.9346, )"
           },
           "refit": {
             "target": "Package",

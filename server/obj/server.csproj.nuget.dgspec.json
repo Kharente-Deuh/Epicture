@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guest\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kharented\\epicture\\DEV_epicture_2019\\server\\server\\server.csproj": {}
+    "C:\\Users\\Guest\\Source\\Repos\\Kharente-Deuh\\Epicture\\server\\server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guest\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kharented\\epicture\\DEV_epicture_2019\\server\\server\\server.csproj": {
+    "C:\\Users\\Guest\\Source\\Repos\\Kharente-Deuh\\Epicture\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guest\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kharented\\epicture\\DEV_epicture_2019\\server\\server\\server.csproj",
+        "projectUniqueName": "C:\\Users\\Guest\\Source\\Repos\\Kharente-Deuh\\Epicture\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Users\\Guest\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kharented\\epicture\\DEV_epicture_2019\\server\\server\\server.csproj",
+        "projectPath": "C:\\Users\\Guest\\Source\\Repos\\Kharente-Deuh\\Epicture\\server\\server.csproj",
         "packagesPath": "C:\\Users\\Guest\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guest\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kharented\\epicture\\DEV_epicture_2019\\server\\server\\obj\\",
+        "outputPath": "C:\\Users\\Guest\\Source\\Repos\\Kharente-Deuh\\Epicture\\server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -44,6 +44,12 @@
             "Refit.HttpClientFactory": {
               "target": "Package",
               "version": "[4.7.51, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.17.0.9346, )"
             },
             "refit": {
               "target": "Package",

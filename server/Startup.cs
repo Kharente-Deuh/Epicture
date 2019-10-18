@@ -1,17 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using server.Services;
 using Refit;
+using server.Services;
+using System;
 
 namespace server
 {
@@ -27,10 +21,9 @@ namespace server
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRefitClient<IAccountService>().ConfigureHttpClient(c => c.BaseAddress = new Uri("https://api.imgur.com/3/account"));
-            services.AddRefitClient<IImageService>().ConfigureHttpClient(c => c.BaseAddress = new Uri("https://api.imgur.com/3/image"));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            services.AddRefitClient<IAccountsService>().ConfigureHttpClient(c => c.BaseAddress = new Uri("https://api.imgur.com/3/account"));
+            services.AddRefitClient<IImagesService>().ConfigureHttpClient(c => c.BaseAddress = new Uri("https://api.imgur.com/3/image"));
             services.AddControllers();
         }
 

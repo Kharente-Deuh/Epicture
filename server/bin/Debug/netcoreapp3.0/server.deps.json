@@ -25,6 +25,7 @@
       "server/1.0.0": {
         "dependencies": {
           "Refit.HttpClientFactory": "4.7.51",
+          "SonarAnalyzer.CSharp": "7.17.0.9346",
           "Refit": "4.7.51",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
@@ -401,6 +402,7 @@
           "lib/netstandard2.0/Refit.HttpClientFactory.dll": {}
         }
       },
+      "SonarAnalyzer.CSharp/7.17.0.9346": {},
       "System.ComponentModel.Annotations/4.5.0": {},
       "System.Memory/4.5.1": {},
       "System.Runtime.CompilerServices.Unsafe/4.5.1": {},
@@ -2187,6 +2189,13 @@
       "sha512": "sha512-/95vXqiPZv1JUzf6HLD6ksJ/0Oota8D1jIi/QELPC3TGp9X8R9YU+Seab2+kr6N1GyXbfbRE2l8sd1dtfUgGWA==",
       "path": "refit.httpclientfactory/4.7.51",
       "hashPath": "refit.httpclientfactory.4.7.51.nupkg.sha512"
+    },
+    "SonarAnalyzer.CSharp/7.17.0.9346": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fmap0bvZRojVKRSJj8xS3Bqsltmjy6i3bJF2gXMkuKdtFFJeS546RT75G3YN3IDSygrIEyfQdL+s8ep60vzORQ==",
+      "path": "sonaranalyzer.csharp/7.17.0.9346",
+      "hashPath": "sonaranalyzer.csharp.7.17.0.9346.nupkg.sha512"
     },
     "System.ComponentModel.Annotations/4.5.0": {
       "type": "package",
